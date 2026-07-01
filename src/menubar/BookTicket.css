@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.booking-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #e9f0f8;
+  padding: 20px;
+}
+
+.top-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  flex: 1;
+  background: #233f7a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.booking-card {
+  background: white;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+.booking-card h1 {
+  text-align: center;
+  color: #233f7a;
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.row input,
+.row select {
+  flex: 1;
+  height: 55px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.checkbox-group label {
+  font-size: 22px;
+  color: #233f7a;
+  font-weight: 600;
+}
+
+.checkbox-group input {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.search-btn {
+  display: block;
+  margin: auto;
+  background: #ff7a2f;
+  color: white;
+  border: none;
+  padding: 15px 70px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #ff6500;
+}
