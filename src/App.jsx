@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
-import Footer from "./component/Footer";
-import Header from "./component/Header";
-import NavBar from "./component/NavBar";
+import Footer from "./component/footer";
+import Header from "./component/header";
+import NavBar from "./component/navBar";
 
 import Home from "./menubar/Home";
 import Dashboard from "./menubar/Dashboard";
 import AboutUs from "./menubar/About";
 import Services from "./menubar/Services";
 import Contact from "./menubar/Contact";
-import Contactlist from "./menubar/contactlist";
+import Contactlist from "./menubar/ContactList";
 import ContactDetails from "./menubar/ContactDetails";      
 import UpdateContact from "./menubar/UpdateContact";        
 import Login from "./component/login";
