@@ -3,7 +3,7 @@ import { Toaster } from "react-hot-toast";
 
 import Footer from "./component/footer";
 import Header from "./component/header";
-import NavBar from "./component/navbar";
+import NavBar from "./component/NavBar";
 
 import Home from "./menubar/Home";
 import Dashboard from "./menubar/Dashboard";
